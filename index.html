@@ -16,7 +16,7 @@
 <div id="phistory"></div>
 <div id="passage"></div>
 
-<tw-storydata name="1. Business Case Competition" startnode="1" creator="Twine" creator-version="2.3.9" ifid="9BF75C4C-2B4D-4B5C-AC29-CD90B74F1989" zoom="1" format="Paloma" format-version="1.1.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {
+<tw-storydata name="1. Business Case Competition" startnode="70" creator="Twine" creator-version="2.3.9" ifid="9BF75C4C-2B4D-4B5C-AC29-CD90B74F1989" zoom="1" format="Paloma" format-version="1.1.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {
   background-color: white;
   margin-bottom: 100px;
 }
@@ -325,7 +325,7 @@ $(document).on("showpassage:after", function() {
 
 </tw-passagedata><tw-passagedata pid="50" name="Presentation Conflic Responce" tags="" position="1775,1250" size="100,100">&lt;%=story.render(&quot;Question Header&quot;)%&gt;
 ## 5. 8. Как Вы ответите Ивану?
-&lt;input type=&quot;textarea&quot;&gt;
+&lt;%=story.render(&quot;User Input&quot;)%&gt;
 
 [[Continue|Presentation Responce- Feedback]]</tw-passagedata><tw-passagedata pid="51" name="Presentation Responce- Feedback" tags="" position="1775,1400" size="100,100">&lt;hr&gt;
 Один из лучших ответов на эмоциональные или псеводрациональные выходы — объединение.
@@ -396,7 +396,7 @@ Gassyr, добрый день! Я руковожу проектным офисо
 
 ## 11. Как Вы ответите Ивану? Попробуйте сформулировать ответ, который кажется Вам наиболее правильным на такую манипуляцию:
 
-&lt;input type=&quot;textarea&quot;&gt;
+&lt;%=story.render(&quot;User Input&quot;)%&gt;
 
 [[Continue|Manipulation Response - Feedback]]
 
